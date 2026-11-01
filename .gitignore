@@ -1,0 +1,23 @@
+# 依赖与构建产物
+node_modules/
+
+# 系统与编辑器
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# 日志与本地输出
+*.log
+
+# 凭据：Key 只存 ~/.dsh/doubao.json，绝不入库
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets.json
+
+# 覆盖率/临时文件
+coverage/
+*.tmp
